@@ -1,0 +1,57 @@
+            0 1 2 3 4 5
+     ___________   ___________
+    |    _____  | |  _____    |
+    |   |     | | | |     |   |
+0   |   |   o o o o o o   |   |
+1   |   |__ o o o o o o __|   |
+2    \______. . . . . . _____/
+3     ______. . . . . . _____
+4    /   __ o o o o o o __   \
+5   |   |   o o o o o o   |   |
+    |   |     | | | |     |   |
+    |   |_____| | | |_____|   |
+    |___________| |___________|
+
+print("            0 1 2 3 4 5\n")
+print("     ___________   ___________\n")
+print("    |    _____  | |  _____    |\n")
+print("    |   |     | | | |     |   |\n")
+print("0   |   |   ")
+
+if (space["00"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["00"].getPiece().getColour())
+end
+
+if (space["01"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["01"].getPiece().getColour())
+end
+
+if (space["02"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["02"].getPiece().getColour())
+end
+
+if (space["03"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["03"].getPiece().getColour())
+end
+
+if (space["04"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["04"].getPiece().getColour())
+end
+
+if (space["05"].getPiece == nil)
+  puts ". "
+else
+  puts "o " .colorize(space["05"].getPiece().getColour())
+end
+
+print("   |   |\n")
